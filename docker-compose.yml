@@ -8,11 +8,11 @@ services:
     volumes:
       - ./app:/var/www/html
     environment:
-      MYSQL_DB_CONNECTION: test
-      MYSQL_DB_NAME: test
-      MYSQL_USER: test
-      MYSQL_PASSWORD: test
-      SITE_URL: http://localhost
+      MYSQL_DB_CONNECTION: mysql
+      MYSQL_DB_NAME: bf3sgd9coetcbwmoanvr
+      MYSQL_USER: u7m88jwogemd5bwx
+      MYSQL_PASSWORD: JQVbDIOXA5f88eaqdpsF
+      SITE_URL: bf3sgd9coetcbwmoanvr-mysql.services.clever-cloud.com
     networks:
       - test
 
